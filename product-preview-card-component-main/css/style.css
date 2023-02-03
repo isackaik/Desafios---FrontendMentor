@@ -18,7 +18,6 @@ main {
     display: flex;
     background-color: white;
     border-radius: 15px;
-    min-width: 47rem;
     max-width: 47rem;
     height: 35rem;
     margin: 15rem;
@@ -38,26 +37,28 @@ main {
     padding: 15px;
 }
 
+.produto-categoria {
+    margin-bottom: 17px;
+    font-size: 17px;
+    font-weight: 200;
+
+}
+
 .info-produto h1 {
-    margin-bottom: 15px;
+    margin-bottom: 17px;
     color: hsl(212, 21%, 14%);
     font-family: Fraunces;
     font-size: 35px;
 }
 
-.produto-categoria {
-    padding-bottom: 15px;
-    font-size: 17px;
-    font-weight: 200;
-}
-
 .produto-descricao {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     font-size: 17px;
+    line-height: 30px;
 }
 
 .produto-preco {
-    margin-bottom: 15px;
+    margin-bottom: 17px;
     display: flex;
 }
 
@@ -76,8 +77,12 @@ main {
 .info-produto button {
     background-color: hsl(158, 36%, 37%);
     color: hsl(0, 0%, 100%);
-    font-size: 30px;
-    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
     border-radius: 10px;
     border: none;
+    width: 300px;
+    height: 60px;
+    align-items: center;
 }
+
