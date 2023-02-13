@@ -11,10 +11,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: Overpass;
 }
 
-.container{
-    font-family: Overpass;
+.container, .thank-you{
     color: hsl(217, 12%, 63%);
     background-color: hsl(213, 19%, 18%);
     width: 25rem;
@@ -53,7 +53,7 @@ p{
     justify-content: space-between;
 }
 
-.stages h2{
+.stages button{
     border: 1px solid none;
     border-radius: 30rem;
     background-color: hsl(223, 7%, 21%);
@@ -62,6 +62,7 @@ p{
     height: 3rem;
     text-align: center;
     font-size: 15px;
+    cursor: pointer;
 }
 
 .button{
@@ -80,7 +81,4 @@ button{
     border-radius: 30rem;
     padding: .9rem;
     width: 100%;
-    
-    
 }
-
