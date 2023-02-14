@@ -9,6 +9,7 @@ body{
     width: 100%;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     font-family: Overpass;
@@ -21,6 +22,10 @@ body{
     height: 25rem;
     padding: 2rem 2rem;
     border-radius: 2rem;
+}
+
+.thank-you{
+    text-align: center;
 }
 
 div{
@@ -63,11 +68,27 @@ p{
     text-align: center;
     font-size: 15px;
     cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.stages button:hover{
+    background-color: hsl(25, 97%, 53%);;
+}
+
+.stages button:focus{
+    background-color: hsl(217, 12%, 63%);
 }
 
 .button{
     display: flex;
     justify-content: center;
+}
+
+.button:hover button{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+    transition: 0.3s;
 }
 
 button{
@@ -81,4 +102,8 @@ button{
     border-radius: 30rem;
     padding: .9rem;
     width: 100%;
+}
+
+.hidden{
+    display: none;
 }
